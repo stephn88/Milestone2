@@ -1,0 +1,73 @@
+.topnav {
+  background-color: #7f055f;
+  padding: 40px 50px;
+}
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 40px 50px;
+  text-decoration: underline;
+  font-size: 2vmin;
+  font-family: "Fjalla One", sans-serif;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: deeppink;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: deeppink3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: deeppink;
+  color: white;
+  font-weight: bolder;
+  padding: 20px 32px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  color: deeppink;
+
+  padding: 50px 70px;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 15px;
+  color: hotpink;
+  padding: 50px 70px;
+  text-align: center;
+  background-color: floralwhite 50%;
+}
+
+form {
+  font-family: helvetica;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  margin: 30px;
+  background-color: floralwhite 50%;
+}
+
+html {
+  background: url("https://images.unsplash.com/photo-1538330627166-33d1908c210d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    no-repeat center fixed;
+  background-size: cover;
+}
